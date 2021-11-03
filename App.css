@@ -48,10 +48,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1000px;
+  height: 500px;
 }
 
-h1,
-h2 {
+h1 {
   font-size: 48px;
+}
+
+h2 {
+  font-size: 25x;
+}
+
+.bold {
+  font-weight: bold;
 }
