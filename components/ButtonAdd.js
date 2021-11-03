@@ -6,7 +6,7 @@ const ButtonAdd = ({ counter, setCounter }) => {
 
   return (
     <div>
-      {counter > 10 ? (
+      {counter < 11 ? (
         <button className="button-aside" onClick={handleClick}>
           +
         </button>

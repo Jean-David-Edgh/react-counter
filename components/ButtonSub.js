@@ -4,9 +4,15 @@ const ButtonSub = ({ counter, setCounter }) => {
     setCounter(result);
   };
   return (
-    <button className="button-aside" onClick={handleClick}>
-      -
-    </button>
+    <div>
+      {counter > 0 ? (
+        <button className="button-aside" onClick={handleClick}>
+          -
+        </button>
+      ) : (
+        <span></span>
+      )}
+    </div>
   );
 };
 
